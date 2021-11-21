@@ -1,0 +1,459 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color:rgb(255, 253, 251);
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+}
+header{
+  background-image: url("desktop/image-header.jpg");
+   background-position: center;
+   background-size: cover;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+.logo{
+  height: 23px;
+  width: 120px;
+  align-self: center;
+}
+.details{
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 1.1rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+.details a:hover{
+  text-decoration: underline;
+}
+.contact{
+  background: hsl(51, 100%, 49%);
+  margin: 0;
+  color:black;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Fraunces', serif;
+  padding: 0.7rem 1.5rem;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 900;
+  cursor: pointer;
+}
+.contact:hover{
+  background: white;
+}
+.hamburgar{
+  display: none;
+  width: 24px;
+  height: 18px;
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.line{
+  height: 2px;
+  background-color: white;
+}
+.header-text{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3rem 0 15rem 0;
+}
+.header-text h1 {
+  color:white;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+.second-section img{
+  width:50%;
+}
+.second-section-text{
+  margin: auto;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  
+}
+.second-section h3{
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  text-align: left;
+  margin: 0;
+}
+.second-section p{
+  color: hsl(213, 9%, 39%);
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+.second-section a{
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+.second-section a::after{
+  background: hsla(51, 100%, 49%, 0.5);
+  content: "";
+  display: block;
+  width: 123px;
+  height: 8px;
+  margin-left: -5px;
+  margin-top: -8px;
+  border-radius: 15px;
+}
+.second-section a:hover::after{
+  background-color: hsl(51, 100%, 49%);
+}
+.third-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+.third-section img{
+  width:50%;
+}
+.third-section-text{
+  margin: auto;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.third-section h3{
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  text-align: left;
+  margin: 0;
+}
+.third-section p{
+  color: hsl(213, 9%, 39%);
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+.third-section a{
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+.third-section a::after{
+  background: hsla(7, 99%, 70%, 0.3);
+  content: "";
+  display: block;
+  width: 123px;
+  height: 8px;
+  margin-left: -5px;
+  margin-top: -8px;
+  border-radius: 15px;
+}
+.third-section a:hover::after{
+  background-color: hsla(7, 99%, 70%, 0.6);
+}
+.fourth-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%
+}
+.fourth-section-left{
+  width: 50%;
+  background-image: url("desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.fourth-section-right{
+  width: 50%;
+  background-image: url("desktop/image-photography.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.fourth-section-text{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 400px;
+  padding-bottom: 3rem;
+  gap: 1.5rem;
+}
+.fourth-section-text h3{
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color:hsl(167, 40%, 24%);
+  margin: 0;
+  padding: 0;
+}
+.fourth-section-text p{
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  padding: 0;
+  margin: 0;
+  color:hsl(167, 40%, 24%);
+}
+.fifth-section-text{
+  text-align: center;
+  font-size: 1.1rem;
+  color: hsl(232, 10%, 55%);
+  letter-spacing: 5px;
+  margin: 4rem 0;
+  padding: 0;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+.fifth-section{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.fifth-section-icon{
+  width:32%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.fifth-section-icon img{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+}
+.fifth-section-icon p{
+  line-height: 1.5;
+  color: hsl(213, 9%, 39%);
+  margin: 1.5rem 0;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+}
+.fifth-section-icon h3{
+  font-weight: 900;
+  font-family: 'Fraunces', serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+}
+.fifth-section-icon h4{
+  color: hsl(232, 10%, 55%);
+  font-size: 0.9rem;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.sixth-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.sixth-section img{
+  width:25%;
+}
+.seventh-section{
+  background-color: #95D6C9;
+  padding: 4.5rem 0;
+}
+.seventh-section-inner{
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  margin: auto;
+  text-align: center;
+}
+.seventh-section-logo{
+  height: 37px;
+  width: 200px;
+  align-self: center;
+  color: black;
+}
+.seventh-section-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor:pointer;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  color: hsl(168, 34%, 41%);
+  font-weight: 800;
+}
+.seventh-section-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  cursor:pointer;
+  align-self: center;
+}
+.seventh-section-details p:hover{
+  color: white;
+}
+@media screen and (max-width: 630px){
+  header{
+    background-image: url("mobile/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .details{
+    display: none;
+  }
+  .hamburgar{
+    display: flex;
+  }
+  .header-text{
+    width: 80%;
+    padding: 3rem 0 15rem 0;
+  }
+  .icon-arrow{
+    margin-top: 5rem;
+  }
+  .second-section{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    
+  }
+  .second-section img{
+    height: 300px;
+    width: auto;
+  }
+  .second-section-text{
+    width: 80%;
+  }
+  .second-section h3{
+    text-align: center;
+  }
+  .second-section p{
+    text-align: center;
+  }
+  .second-section a{
+    text-align: center;
+  }
+  .second-section a::after{
+    margin: auto;
+    margin-top: -8px;
+  }
+  .third-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .third-section img{
+    height: 300px;
+    width: auto;
+  }
+  .third-section-text{
+    width: 80%;
+  }
+  .third-section h3{
+    text-align: center;
+  }
+  .third-section p{
+    text-align: center;
+  }
+  .third-section a{
+    text-align: center;
+  }
+  .third-section a::after{
+    margin: auto;
+    margin-top: -8px;
+  }
+  .fourth-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  .fourth-section-left{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .fourth-section-right{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .fourth-section-text{
+    width: 90%;
+  }
+  .fifth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+    height: 900px;
+
+  }
+  .fifth-section-icon{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .fifth-section-icon img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+  }
+  .sixth-section img{
+    width:50%;
+    height: 250px;
+  }
+  
+} 
