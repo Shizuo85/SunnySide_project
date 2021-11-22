@@ -69,7 +69,7 @@ a{
 .line{
   height: 2px;
   background-color: white;
-  content: "";
+  width: 100%;
 }
 .header-text{
   width: 600px;
