@@ -6,6 +6,12 @@ body{
   font-family: "Barlow", sans-serif;
   text-align: center;
 }
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
 header{
   background-image: url("desktop/image-header.jpg");
    background-position: center;
@@ -55,7 +61,7 @@ a{
 .contact:hover{
   background: white;
 }
-.hamburgar{
+.hamburger{
   display: none;
   width: 24px;
   height: 18px;
