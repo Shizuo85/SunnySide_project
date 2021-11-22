@@ -1,5 +1,5 @@
 function openMenu() {
-  var x = document.getElementById("menu");
+  var x = document.getElementsByClassName("details-onclick");
   if (x.classList.contains("hide") === true) {
     x.classList.toggle("show");
   }

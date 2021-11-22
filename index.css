@@ -10,7 +10,7 @@ body{
   display: none;
 }
 .show{
-  display: block;
+  display: flex;
 }
 header{
   background-image: url("desktop/image-header.jpg");
@@ -71,6 +71,34 @@ a{
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+}
+.details-onclick{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  top: 90px;
+  right: 1.9rem;
+  padding: 2rem 4.5rem;
+  background-color:white;
+}
+.details-onclick a{
+  color: hsl(232, 10%, 55%);
+}
+.details-onclick::after{
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border: 18px solid transparent;
+  border-bottom-color:white;
+  border-top: 0;
+  border-right: 0;
+  margin-left: -9px;
+  margin-top: -18px;
 }
 .line{
   height: 2px;
@@ -361,10 +389,10 @@ a{
   }
   .header-text{
     width: 80%;
-    padding: 3rem 0 15rem 0;
+    padding:0;
   }
   .icon-arrow{
-    margin-top: 5rem;
+    margin-bottom: 8rem;
   }
   .second-section{
     display: flex;
