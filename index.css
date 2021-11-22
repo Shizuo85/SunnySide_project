@@ -69,11 +69,10 @@ a{
   flex-direction: column;
   justify-content: space-between;
   background-color: transparent;
-  border: transparent;
+  border: none;
   cursor: pointer;
 }
 .details-onclick{
-  display: none;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
