@@ -368,8 +368,16 @@ a{
   flex-direction: row;
   justify-content: space-between;
   width: 60%;
-  cursor:pointer;
   align-self: center;
+}
+.seventh-section-icons i{
+  width: 20px;
+  height: 20px;
+  color:#2C7566;
+  cursor:pointer;
+}
+.seventh-section-icons i:hover{
+  color:white;
 }
 .seventh-section-details p:hover{
   color: white;
